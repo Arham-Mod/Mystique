@@ -1,1 +1,8 @@
 @import "tailwindcss";
+body{
+    font-family: "Satoshi";
+}
+
+.Navbar {
+  border-bottom: 10px solid #000000; 
+}
