@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="relative px-4 py-4 border-b border-[#EAEFEE]">
+    <nav className="relative px-4 py-4 border-b-3 border-[#C5C8C7]">
       <div className="flex items-center">
         <div className="flex space-x-4">
           <a href="#" className="text-black font-medium text-[22px] hover:text-gray-700">Male</a>
