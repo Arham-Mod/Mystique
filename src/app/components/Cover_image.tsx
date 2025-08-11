@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function CoverImage() {
   return (
-    <div className="relative w-240 h-200 "> {/* Ensure height is set */}
+    <div className="absolute right-0 top-0 w-[200px] h-[200px]"> {/* Stick to right top; adjust size */}
       <Image
         src="/Home_cloth.jpeg"
         alt="Cover image for VISTRY"
@@ -10,5 +10,5 @@ export default function CoverImage() {
         className="object-cover"
       />
     </div>
-  );//major error in this
+  );
 }

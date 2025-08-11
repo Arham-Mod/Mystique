@@ -1,10 +1,11 @@
 import CoverImage from "./components/Cover_image";
 export default function Home() {
   return (
-    <div>
-      <div className="box w-240 h-200 bg-[#EAEFEE]">
+    <div className="flex h-screen"> {/* Full height flex */}
+      <div className="w-1/2 bg-[#EAEFEE]"></div> {/* Left gray */}
+      <div className="w-1/2 bg-white relative"> {/* Right white with relative for absolute child */}
+        <CoverImage /> {/* Image positions absolute right */}
       </div>
-      <CoverImage/>
-    </div>//major error in coverimage
+    </div>
   );
 }
