@@ -9,7 +9,7 @@ export default function Home() {
           <span className="translate-y-[-370px] translate-x-[-140px]">STYLE</span> {/* Example: move down */}
         </h2>
       </div>
-      <div className="w-1/2 h-full bg-white relative">
+      <div className="w-1/3 h-full bg-white relative">
         <CoverImage /> {/* Image positions absolute right */}
       </div>
     </div>
