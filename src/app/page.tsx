@@ -11,8 +11,8 @@ export default function Home() {
             </span> {/* Example: move down */}
         </h2>
       </div>
-      <div className=" right-0 h-full bg-white relative">
-        <CoverImage /> {/* Image positions absolute right */}
+      <div className=" right-0 h- bg-white relative">
+        <CoverImage />
       </div>
     </div>
   );
