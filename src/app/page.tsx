@@ -11,9 +11,14 @@ export default function Home() {
             </span> {/* Example: move down */}
         </h2>
       </div>
-      <div className=" right-0 h- bg-white relative">
-        <CoverImage />
+        <div className=" w-full h-full relative right-0">
+          <CoverImage />
+          <div className="h-10">
+            <a href="#" className="text-white text-[174px]">discover</a>
+            <button className="absolute bottom-9 left-9 bg-white text-black px-6 py-2 "><a href="#" className="font-medium text-[30px] hover:text-gray-700">Discover</a></button>
+          </div>
+        </div>
       </div>
-    </div>
+    
   );
 }
