@@ -9,11 +9,12 @@ body{
 .V-font{
   font-family: "Edwardian Script ITC";
   font-size: 400px;
+  font-weight: bold;
 }
 
 .ISTRY-font{
   font-size: 275px;
   letter-spacing: -0.4rem;
   font-weight: bold;
-  
+
 }
