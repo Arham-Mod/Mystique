@@ -1,0 +1,27 @@
+.Sticker2{
+  object-fit: cover;
+  height: 80%;
+  width: 80%;
+  margin-left: 30px;
+}
+
+.Sticker3{
+  object-fit: cover;
+  height: 90%;
+  width: 90%;
+  margin-left: 30px;
+}
+
+.Sticker{
+  object-fit: cover;
+  height: 90%;
+  width: 90%;
+  margin-left: 30px;
+}
+
+.Sticker4{
+  object-fit: cover;
+  height: 90%;
+  width: 90%;
+  margin-left: 30px;
+}
