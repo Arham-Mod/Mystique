@@ -1,4 +1,5 @@
 import CoverImage from "./components/Cover_image";
+import Card from "./components/Card";
 
 export default function Home() {
   return (
@@ -33,11 +34,11 @@ export default function Home() {
           </h1>
         </div>
         {/* Clothes cards in a 4-column grid */}
-        <div className="grid grid-cols-4 gap-4 mt-4">
-          <div className="bg-[#EAEFEE] h-150"></div>
-          <div className="bg-[#EAEFEE] h-150"></div>
-          <div className="bg-[#EAEFEE] h-150"></div>
-          <div className="bg-[#EAEFEE] h-150"></div>
+        <div className="grid grid-cols-4 gap-4 mt-4 ">
+          <Card imgSrc="/Card_clothes/sticker2.webp" alt="Cloth 1" link="#" className={"Sticker2"}/>
+          <Card imgSrc="/Card_clothes/sticker3.webp" alt="Cloth 2" link="#" className={"Sticker3"} />
+          <Card imgSrc="/Card_clothes/sticker4.webp" alt="Cloth 3" link="#" className={"Sticker4"}/>
+          <Card imgSrc="/Card_clothes/sticker.webp" alt="Cloth 4" link="#" className={"Sticker"}/>
         </div>
       </div>
     </div>
