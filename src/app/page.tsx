@@ -1,5 +1,6 @@
 import CoverImage from "./components/Cover_image";
 import Card from "./components/Card";
+import BackgroundGif from "../../public/Cover.GIF"
 
 export default function Home() {
   return (
@@ -15,7 +16,12 @@ export default function Home() {
         </div>
 
         <div className="w-full h-full relative right-0">{/* left */}
-          <CoverImage />
+          <img 
+            src="/Cover.GIF"
+            alt="Background animation" 
+            className="w-full h-full object-cover"
+            
+          />
           <div className="h-10">
             <a href="#" className="text-white text-[174px]">discover</a>
             <button className="absolute bottom-9 left-9 bg-white text-black px-6 py-2">
