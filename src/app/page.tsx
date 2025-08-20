@@ -11,6 +11,7 @@ export default function Home() {
             <span className="translate-y-[-270px] translate-x-[-50px]">BEYOND</span>
             <span className="translate-y-[-370px] translate-x-[-140px]">STYLE</span>
           </h2>
+          <h1 className="absolute bottom-40 font-medium text-[23px] left-6 ">Refined attire for the style pioneer. Your style<br /> visualized on you.</h1>
         </div>
 
         <div className="w-full h-full relative right-0">{/* left */}
