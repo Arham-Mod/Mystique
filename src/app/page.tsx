@@ -1,7 +1,5 @@
 import CoverImage from "./components/Cover_image";
 import Card from "./components/Card";
-import BackgroundGif from "../../public/Cover.GIF"
-
 export default function Home() {
   return (
     <div className="flex flex-col">
