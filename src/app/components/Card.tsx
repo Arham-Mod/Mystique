@@ -9,15 +9,15 @@ interface CardProps {
   className?: string; // Optional prop
 }
 
-const Card = ({ imgSrc, alt, id, className }: CardProps) => {
+const Card: React.FC<CardProps> = ({ imgSrc, alt, id, className = '' }) => {
   return (
     <Link href={`/product/${id}`}>
       <div className={`bg-[#EAEFEE] h-[150px] flex items-center justify-center cursor-pointer ${className}`}>
         <Image
           src={imgSrc}
+          width={1000}
+          height={1000}
           alt={alt}
-          width={150}
-          height={150}
           className="object-contain"
         />
       </div>
