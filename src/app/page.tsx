@@ -1,4 +1,6 @@
 import Card from "./components/Card";
+import Link from 'next/link';
+import Image from 'next/image';
 export default function Home() {
   return (
     <div className="flex flex-col">
@@ -39,10 +41,10 @@ export default function Home() {
         </div>
         {/* Clothes cards in a 4-column grid */}
         <div className="grid grid-cols-4 gap-4 mt-4 px-5">
-          <Card imgSrc="/Card_clothes/sticker2.webp" alt="Cloth 1" link="#" className={"Sticker2"} />
-          <Card imgSrc="/Card_clothes/sticker3.webp" alt="Cloth 2" link="#" className={"Sticker3"} />
-          <Card imgSrc="/Card_clothes/sticker4.webp" alt="Cloth 3" link="#" className={"Sticker4"}/>
-          <Card imgSrc="/Card_clothes/sticker.webp" alt="Cloth 4" link="#" className={"Sticker"}/>
+          <Card imgSrc="/Card_clothes/sticker2.webp" alt="Cloth 1" id="#" className={"Sticker2"} />
+          <Card imgSrc="/Card_clothes/sticker3.webp" alt="Cloth 2" id="#" className={"Sticker3"} />
+          <Card imgSrc="/Card_clothes/sticker4.webp" alt="Cloth 3" id="#" className={"Sticker4"}/>
+          <Card imgSrc="/Card_clothes/sticker.webp" alt="Cloth 4" id="#" className={"Sticker"}/>
         </div>
       </div>
     </div>
