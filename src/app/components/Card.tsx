@@ -5,19 +5,19 @@ import Image from 'next/image';
 interface CardProps {
   imgSrc: string;
   alt: string;
-  id: string;
-  className?: string; // Optional prop
+  slug: string; // Use slug for id or name
+  className?: string;
 }
 
-const Card: React.FC<CardProps> = ({ imgSrc, alt, id, className = '' }) => {
+const Card: React.FC<CardProps> = ({ imgSrc, alt, slug, className = '' }) => {
   return (
-    <Link href={`/product/${id}`}>
+    <Link href={`/product/${slug}`}>
       <div className={`bg-[#EAEFEE] h-[150px] flex items-center justify-center cursor-pointer ${className}`}>
         <Image
           src={imgSrc}
-          width={1000}
-          height={1000}
           alt={alt}
+          width={1000}
+          height={150}
           className="object-contain"
         />
       </div>
