@@ -5,6 +5,12 @@ import "./Card.css"
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <link
+          href="https://fonts.cdnfonts.com/css/satoshi"
+          rel="stylesheet"
+        />
+      </head>
       <body>
         <Navbar />
         <main>{children}</main>

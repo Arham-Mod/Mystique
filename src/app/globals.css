@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import "../../public/fonts/satoshi.css";
 body{
     font-family: "Satoshi";
 }
