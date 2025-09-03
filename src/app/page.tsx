@@ -8,10 +8,10 @@ export default function Home() {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">{/* Top section with 1-2 column grid */}
         <div className="h-240 bg-[#EAEFEE] flex items-center justify-center">
           <h2 className="text-[174px] tracking-[-0.4rem] font-bold rotate-90 text-black flex flex-col items-center">
-            <span className="translate-y-[-270px] translate-x-[-50px]">BEYOND</span>
-            <span className="translate-y-[-370px] translate-x-[-140px]">STYLE</span>
+            <span className="translate-y-[-270px] translate-x-[-150px]">BEYOND</span>
+            <span className="translate-y-[-370px] translate-x-[-240px]">STYLE</span>
           </h2>
-          <h1 className="absolute bottom-40 font-medium text-[23px] left-6 ">Refined attire for the style pioneer. Your style<br /> visualized on you.</h1>
+          <h1 className="absolute bottom-17  font-medium text-[23px] left-6 ">Refined attire for the style pioneer. Your style<br /> visualized on you.</h1>
         </div>
 
         <div className="w-full h-full relative right-0">{/* left */}
