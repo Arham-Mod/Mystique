@@ -11,7 +11,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ imgSrc, alt, slug, className = '' }) => {
   return (
-    <Link href={`/product/${slug}`}>
+    <Link href={`/Product/${slug}`}>
       <div className={`bg-[#EAEFEE] h-[150px] flex items-center justify-center cursor-pointer ${className}`}>
         <Image
           src={imgSrc}
