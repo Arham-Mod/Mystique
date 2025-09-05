@@ -28,3 +28,4 @@ export default function Product({ params }: ProductPageProps) {
     </div>
   );
 }
+// to do- now devide the full page with the combination of flex and grid according to design
