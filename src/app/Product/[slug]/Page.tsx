@@ -20,7 +20,10 @@ export default function Product({ params }: ProductPageProps) {
             className="Sticker" 
           />
         </div>
-        <div className="w-full h-2/5 bg-gray-300 m-5">
+          <div className=" grid-row-2 w-full m-5 h-1/2">
+            <div className="w-full h-1/2 bg-gray-400 "></div>
+            <br />
+            <div className="w-full h-1/2 bg-gray-400 "></div>
         </div>
         <div className="w-full h-4/5 bg-gray-400 m-5">
         </div>
