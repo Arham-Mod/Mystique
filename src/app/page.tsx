@@ -41,10 +41,10 @@ export default function Home() {
         </div>
         {/* Clothes cards in a 4-column grid */}
         <div className="grid grid-cols-4 gap-4 mt-4 px-5">
-          <Card slug="Cloth2" imgSrc="/Card_clothes/sticker2.webp" alt="Cloth 1"  className={"Sticker2"} />
-          <Card slug="Cloth3" imgSrc="/Card_clothes/sticker3.webp" alt="Cloth 2"  className={"Sticker3"} />
-          <Card slug="Cloth4" imgSrc="/Card_clothes/sticker4.webp" alt="Cloth 3"  className={"Sticker4"}/>
-          <Card slug="Cloth1" imgSrc="/Card_clothes/sticker.webp" alt="Cloth 4"  className={"Sticker"}/>
+          <Card slug="Cloth1" imgSrc="/Card_clothes/sticker.webp" alt="Cloth 1"  className={"Sticker"}/>
+          <Card slug="Cloth2" imgSrc="/Card_clothes/sticker2.webp" alt="Cloth 2"  className={"Sticker2"} />
+          <Card slug="Cloth3" imgSrc="/Card_clothes/sticker3.webp" alt="Cloth 3"  className={"Sticker3"} />
+          <Card slug="Cloth4" imgSrc="/Card_clothes/sticker4.webp" alt="Cloth 4"  className={"Sticker4"}/>
         </div>
       </div>
     </div>
