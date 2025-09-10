@@ -12,7 +12,7 @@ export default function Product({ params }: ProductPageProps) {
   return(
     <div className="flex h-screen">
       <div className="w-2/3 flex flex-row">
-        <div className="w-full h-2/5 m-5">
+        <div className="w-full h-75 m-5">
           <Card 
             slug={slug} 
             imgSrc={`/Card_clothes/sticker${slug === 'Cloth1' ? '' : slug.replace('Cloth', '')}.webp`}
@@ -20,12 +20,17 @@ export default function Product({ params }: ProductPageProps) {
             className="Sticker" 
           />
         </div>
-          <div className=" grid-row-2 w-full m-5 h-1/2">
-            <div className="w-full h-1/2 bg-gray-400 "></div>
+          <div className=" flex-col w-full m-5 h-full">
+            <div className="w-full h-32 bg-gray-400 rounded-full"></div>
             <br />
-            <div className="w-full h-1/2 bg-gray-400 "></div>
+            <div className="flex flex-row ">
+              <div className="bg-amber-300 w-1/2 h-30 mr-7 rounded-[22px]"></div>
+              <br />
+              <div className="bg-red-500 w-1/2 h-30 rounded-[22px]"></div>
+            </div>
+            
         </div>
-        <div className="w-full h-4/5 bg-gray-400 m-5">
+        <div className="w-full h-150 bg-gray-400 m-5">
         </div>
       </div>
     </div>
