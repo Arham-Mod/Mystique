@@ -21,7 +21,7 @@ export default function Product({ params }: ProductPageProps) {
           />
         </div>
           <div className=" flex-col w-full m-5 h-full">
-            <div className="w-full h-32 bg-gray-400 rounded-full"></div>
+            <div className="w-full h-32 bg-gray-400 rounded-full"></div> {/* add the insert box here*/}
             <br />
             <div className="flex flex-row ">
               <div className="bg-amber-300 w-1/2 h-30 mr-7 rounded-[22px]"></div>
