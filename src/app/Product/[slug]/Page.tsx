@@ -43,17 +43,17 @@ export default function Product({ params }: ProductPageProps) {
           <div className=" flex-col w-full m-5 h-full">
             <button
               onClick={handleButtonClick}
-              className="w-full h-32 bg-gray-400 rounded-[30px] mb-6">
-              Insert Image
+              className="w-full h-32 bg-[#D9D9D9] rounded-[30px] mb-6 text-9xl">
+                +
             </button> {/* add the insert box here*/}
             <div className="flex flex-row ">
-              <div className="bg-amber-300 w-1/2 h-30 mr-7 rounded-[30px]"></div>
+              <div className="bg-[#D9D9D9] w-1/2 h-30 mr-7 rounded-[30px]"></div>
               <br />
-              <div className="bg-red-500 w-1/2 h-30 rounded-[30px]"></div>
+              <div className="bg-[#D9D9D9] w-1/2 h-30 rounded-[30px]"></div>
             </div>
             
         </div>
-        <div className="w-full h-150 bg-gray-400 m-5">
+        <div className="w-full h-150 bg-[#D9D9D9] rounded-[30px] m-5">
         </div>
       </div>
 
