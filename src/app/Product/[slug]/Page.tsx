@@ -1,4 +1,9 @@
+"use client";
+
+import { useRef } from "react";
+
 import Card from "@/app/components/Card";
+
 
 interface ProductPageProps {
   params: {
@@ -7,8 +12,23 @@ interface ProductPageProps {
 }
 
 export default function Product({ params }: ProductPageProps) {
+  
   const { slug } = params;
   
+  const fileInputRef = useRef<HTMLInputElement | null>(null);;
+  
+  const handleButtonClick = () => {
+    fileInputRef.current?.click(); 
+  };
+  
+  const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0]; // safely access first file
+    if (file) {
+      console.log("Selected file:", file);
+    }
+  };
+
+
   return(
     <div className="flex h-screen">
       <div className="w-2/3 flex flex-row">
