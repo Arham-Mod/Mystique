@@ -20,11 +20,11 @@ export default function Product({ params }: ProductPageProps) {
   const handleButtonClick = () => {
     fileInputRef.current?.click(); 
   };
-  
+
   const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const file = event.target.files?.[0]; // safely access first file
+    const file = event.target.files?.[0]; // the 0 means that if someone selects multuple files only the forst selected file will be inputted//
     if (file) {
-      console.log("Selected file:", file);
+      console.log("Selected file:", file);//logs the statement that the <file> is selected
     }
   };
 
